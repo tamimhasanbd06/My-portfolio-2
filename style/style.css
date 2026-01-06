@@ -142,7 +142,7 @@
  /* About section */
 
 
- #abbout {
+ #abbout,#skills,#resume {
       padding-top: 130px;
  }
 
@@ -176,10 +176,7 @@
 /* Skill Cart */
 
 
-#skills{
-   padding-top: 130px;
 
-}
 
 #skills .skills-Container{
      width: 71%;
@@ -217,6 +214,85 @@ max-width: 267px;
      color: #757575;
      line-height: 28px;
 }
+
+/* Resume section */
+
+#resume .resume-container{
+width: 71%;
+max-width: 1140px;
+margin: 113px auto 0;
+display: flex;
+gap: 24px;
+}
+
+ .resume-container hr {
+    margin: 30px 0; 
+ }
+
+
+.resume-container .section-title{
+     font-size: 30px;
+     color: #474747;
+     margin-bottom: 30px;
+}
+
+.resume-card{
+     max-width: 511px;
+     margin-right: 47px;
+}
+
+
+.resume-card .card-title{
+   font-size: 25px;  
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: #474747;
+}
+
+
+.resume-card .card-info {
+   font-size: 20px;  
+   font-weight:600;
+   margin-bottom: 20px;
+   color: #757575;
+}
+
+
+.resume-card .card-info {
+   font-size: 16px;  
+   line-height: 28px;
+   color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
